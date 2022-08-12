@@ -1,10 +1,10 @@
 ﻿Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine());
 
-for ( ; num > 1 ; num = num - 1);
+for ( int i = 1; i <= num ; i++ )
    {
-       if (num % 2 == 0);
-    Console.WriteLine($"{num}");
+       if (i % 2 == 0)    
+       Console.WriteLine($"{i}");
    }
 
 
