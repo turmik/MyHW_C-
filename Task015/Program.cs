@@ -3,6 +3,13 @@
 7 -> да
 1 -> нет */
 
+int day = new Random().Next(1,8);
+Console.WriteLine(day);
 
+if ( day <= 7 )
+Console.WriteLine("да");
+
+else 
+Console.WriteLine("нет");
 
 
